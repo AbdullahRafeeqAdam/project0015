@@ -1,0 +1,15 @@
+
+@media (min-width: 64rem) and (prefers-reduced-motion: reduce) {
+  .electiveContent .accordionSummary {
+    transition: none !important;
+    animation: none !important;
+  }
+  .electiveContent .accordionSummaryIcon svg {
+    transition: none !important;
+    animation: none !important;
+  }
+  .electiveContent .accordionContent {
+    transition: none !important;
+    animation: none !important;
+  }
+}

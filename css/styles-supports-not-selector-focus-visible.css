@@ -1,0 +1,305 @@
+
+@supports not selector(*:focus-visible) {
+  h2 a:focus, h3 a:focus {
+    background-size: 0 0.0625rem, 100% 0.0625rem;
+  }
+  body.notUsingKeys h2 a:focus, body.notUsingKeys h3 a:focus {
+    outline: 0;
+  }
+  a:focus {
+    text-decoration: none;
+    color: var(--typography-color-link-hover);
+  }
+  body.notUsingKeys a:focus {
+    outline: 0;
+  }
+  .cta a:focus .icon {
+    transform: translate3d(0.625rem, 0, 0);
+  }
+  .cta a:focus .icon use {
+    fill: var(--cta-svg-hover-color);
+  }
+  .cta a:focus .fileIcon {
+    filter: var(--cta-fileIcon-hover-filter);
+  }
+  .cta a:focus .text {
+    color: var(--cta-text-hover-color);
+  }
+  body.notUsingKeys .cta a:focus {
+    outline: 0;
+  }
+  .pageHeaderButton a:focus, .pageHeaderButton > button:focus {
+    color: #CC9F53;
+  }
+  .pageHeaderButton a:focus use, .pageHeaderButton > button:focus use {
+    fill: #CC9F53;
+  }
+  .pageHeaderButton a:focus .menuBar, .pageHeaderButton > button:focus .menuBar {
+    background-color: #CC9F53;
+  }
+  body.notUsingKeys .pageHeaderButton a:focus, .pageHeaderButton body.notUsingKeys a:focus, body.notUsingKeys .pageHeaderButton > button:focus {
+    outline: 0;
+  }
+  .pageFooterListItemLink:focus {
+    color: #CC9F53;
+    background-size: 0 0.0625rem, 100% 0.0625rem;
+  }
+  body.notUsingKeys .pageFooterListItemLink:focus {
+    outline: 0;
+  }
+  .socialListItem a:focus use {
+    fill: #CC9F53;
+  }
+  body.notUsingKeys .socialListItem a:focus {
+    outline: 0;
+  }
+  .apiVideoBlockLink:focus {
+    border: 0.0625rem solid #8A1E41;
+  }
+  .apiVideoBlockLink:focus svg {
+    fill: #8A1E41;
+  }
+  body.notUsingKeys .apiVideoBlockLink:focus {
+    outline: 0;
+  }
+  .prevNextWrapper a:focus use {
+    fill: #8A1E41;
+  }
+  .prevNextWrapper a:focus .selectedLabel {
+    text-decoration: underline;
+  }
+  body.notUsingKeys .prevNextWrapper a:focus {
+    outline: 0;
+  }
+  .pagination a:focus .selectedLabel {
+    color: #8A1E41;
+  }
+  .pagination a:focus .selectedLabel::after {
+    height: 0.0625rem;
+    background-color: #8A1E41;
+  }
+  body.notUsingKeys .pagination a:focus {
+    outline: 0;
+  }
+  .filterTermsListItem .ajaxLink:focus .text {
+    text-decoration: underline;
+  }
+  body.notUsingKeys .filterTermsListItem .ajaxLink:focus {
+    outline: 0;
+  }
+  .categoriesItem a:focus {
+    text-decoration: underline;
+  }
+  body.notUsingKeys .categoriesItem a:focus {
+    outline: 0;
+  }
+  .breadcrumbsLink:focus {
+    color: #8A1E41;
+    text-decoration: underline;
+  }
+  body.notUsingKeys .breadcrumbsLink:focus {
+    outline: 0;
+  }
+  .promoBlock h2 a:focus,
+  .promoBlock h3 a:focus {
+    color: var(--promoBlock-text-headings-link-hover);
+  }
+  body.notUsingKeys .promoBlock h2 a:focus,
+  body.notUsingKeys .promoBlock h3 a:focus {
+    outline: 0;
+  }
+  .accordionSummary:focus .accordionSummaryText {
+    color: #8A1E41;
+  }
+  .accordionSummary:focus .accordionSummaryIcon use {
+    fill: #8A1E41;
+  }
+  .accordionSummary:focus::after {
+    transform: scale(1);
+  }
+  body.notUsingKeys .accordionSummary:focus {
+    outline: 0;
+  }
+  .canvas--blueDark:not(.electiveContent):not(.lateralMovement) .accordion:focus .accordionSummaryText {
+    color: #CC9F53;
+  }
+  .canvas--blueDark:not(.electiveContent):not(.lateralMovement) .accordion:focus .accordionSummaryIcon use {
+    fill: #CC9F53;
+  }
+  body.notUsingKeys .canvas--blueDark:not(.electiveContent):not(.lateralMovement) .accordion:focus {
+    outline: 0;
+  }
+  .overlayImageBlockButton:focus use {
+    fill: #8A1E41;
+  }
+  .overlayImageBlockButton:focus span:nth-of-type(3) {
+    transform: translate3d(0.375rem, -0.375rem, 0);
+  }
+  body.notUsingKeys .overlayImageBlockButton:focus {
+    outline: 0;
+  }
+  .relatedContent.canvas.canvas--blueDark .partial .textWrap h3 a:focus, .relatedContent.canvas.canvas--blueDark .partial .textWrap .partialList a:focus, .relatedContent.canvas.canvas--blueDark .partial .textWrap .partialAuthor a:focus {
+    color: #8A1E41 !important;
+  }
+  body.notUsingKeys .relatedContent.canvas.canvas--blueDark .partial .textWrap h3 a:focus, body.notUsingKeys .relatedContent.canvas.canvas--blueDark .partial .textWrap .partialList a:focus, body.notUsingKeys .relatedContent.canvas.canvas--blueDark .partial .textWrap .partialAuthor a:focus {
+    outline: 0;
+  }
+  .swipeNavButton:focus use {
+    fill: #8A1E41;
+  }
+  body.notUsingKeys .swipeNavButton:focus {
+    outline: 0;
+  }
+  .swipeNavLink:focus {
+    color: #8A1E41;
+  }
+  .swipeNavLink:focus::after {
+    opacity: 1;
+  }
+  body.notUsingKeys .swipeNavLink:focus {
+    outline: 0;
+  }
+  .clientLogin.swipeNavLink:focus .clientLoginIcon use {
+    fill: #8A1E41;
+  }
+  body.notUsingKeys .clientLogin.swipeNavLink:focus {
+    outline: 0;
+  }
+  .secondaryNavLinksItemLink:focus .secondaryNavLinksItemLinkText {
+    background-size: 0 0.0625rem, 100% 0.0625rem;
+    color: #8A1E41;
+  }
+  body.notUsingKeys .secondaryNavLinksItemLink:focus {
+    outline: 0;
+  }
+  .secondaryNav .swipeNavLink:focus {
+    color: #8A1E41;
+  }
+  body.notUsingKeys .secondaryNav .swipeNavLink:focus {
+    outline: 0;
+  }
+  .secondaryNav .swipeNavLink[aria-current]:focus {
+    color: #8A1E41;
+  }
+  .secondaryNav .swipeNavLink[aria-current]:focus::after {
+    background-color: #8A1E41;
+  }
+  body.notUsingKeys .secondaryNav .swipeNavLink[aria-current]:focus {
+    outline: 0;
+  }
+  .secondListLink:focus {
+    color: #8A1E41;
+  }
+  .secondListLink:focus .text {
+    background-size: 0 0.0625rem, 100% 0.0625rem;
+  }
+  body.notUsingKeys .secondListLink:focus {
+    outline: 0;
+  }
+  .secondListLink[aria-current]:focus .text {
+    background-image: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #8A1E41, #8A1E41);
+  }
+  body.notUsingKeys .secondListLink[aria-current]:focus {
+    outline: 0;
+  }
+  .partial.dark h3 a:focus,
+  .partial.dark .partialAuthor a:focus {
+    color: #CC9F53;
+    background-size: 0 0.0625rem, 100% 0.0625rem;
+  }
+  body.notUsingKeys .partial.dark h3 a:focus,
+  body.notUsingKeys .partial.dark .partialAuthor a:focus {
+    outline: 0;
+  }
+  .partial.dark h3 a:focus {
+    text-decoration: none;
+  }
+  .partial.dark h3 a:focus::after {
+    background-color: #CC9F53;
+  }
+  body.notUsingKeys .partial.dark h3 a:focus {
+    outline: 0;
+  }
+  .partial.dark .partialList .cta a:focus .text {
+    color: #CC9F53;
+  }
+  .partial.dark .partialList .cta a:focus .icon use {
+    fill: #CC9F53;
+  }
+  body.notUsingKeys .partial.dark .partialList .cta a:focus {
+    outline: 0;
+  }
+  .tabs .accordionSummary:focus::after {
+    background-color: #8A1E41;
+  }
+  body.notUsingKeys .tabs .accordionSummary:focus {
+    outline: 0;
+  }
+  .electiveContentTop:focus use {
+    fill: #8A1E41;
+  }
+  .electiveContentTop:focus .electiveContentTopText {
+    text-decoration: underline;
+    color: #8A1E41;
+  }
+  body.notUsingKeys .electiveContentTop:focus {
+    outline: 0;
+  }
+  .electiveContent .accordion:not([open]) .accordionSummary:focus .accordionSummaryText {
+    color: #8A1E41;
+    .electiveContent .accordion:not([open]) .accordionSummary:focus .accordionSummaryIcon svg {
+      transform: translate3d(0.3125rem, 0, 0);
+    }
+  }
+  .electiveContent .accordion:not([open]) .accordionSummary:focus .accordionSummaryIcon use {
+    fill: #8A1E41;
+  }
+  body.notUsingKeys .electiveContent .accordion:not([open]) .accordionSummary:focus {
+    outline: 0;
+  }
+  .articleHubClose:focus svg {
+    background-color: #CC9F53;
+    border-color: #CC9F53;
+  }
+  .articleHubClose:focus svg use {
+    fill: #ffffff;
+  }
+  body.notUsingKeys .articleHubClose:focus {
+    outline: 0;
+  }
+  .articleHub .cta a:focus .icon use {
+    fill: #8A1E41;
+  }
+  body.notUsingKeys .articleHub .cta a:focus {
+    outline: 0;
+  }
+  body.notUsingKeys .articleHubContent:nth-of-type(3) .promoBlock .textWrap > h3 a:focus {
+    outline: 0;
+  }
+  .articleHubContent:nth-of-type(3) .promoBlock .textWrap .promoBlockCta:focus svg use {
+    fill: #ffffff;
+  }
+  body.notUsingKeys .articleHubContent:nth-of-type(3) .promoBlock .textWrap .promoBlockCta:focus {
+    outline: 0;
+  }
+  body.notUsingKeys .articleHubContent:nth-of-type(4) .promoBlock .text .textWrap > h3 a:focus {
+    outline: 0;
+  }
+  .articleHubContent:nth-of-type(1) .promoBlock .textWrap > h3 a:focus, .articleHubContent:nth-of-type(3) .promoBlock .textWrap > h3 a:focus, .articleHubContent:nth-of-type(5) .promoBlock .textWrap > h3 a:focus {
+    color: #CC9F53;
+    background-size: 0 0.0625rem, 100% 0.0625rem;
+  }
+  body.notUsingKeys .articleHubContent:nth-of-type(1) .promoBlock .textWrap > h3 a:focus, body.notUsingKeys .articleHubContent:nth-of-type(3) .promoBlock .textWrap > h3 a:focus, body.notUsingKeys .articleHubContent:nth-of-type(5) .promoBlock .textWrap > h3 a:focus {
+    outline: 0;
+  }
+  .articleHubContent .promoBlock .text .promoBlockCta:focus::before {
+    border-color: #CC9F53;
+    background-color: #CC9F53;
+  }
+  .articleHubContent .promoBlock .text .promoBlockCta:focus svg use {
+    fill: #ffffff;
+  }
+  body.notUsingKeys .articleHubContent .promoBlock .text .promoBlockCta:focus {
+    outline: 0;
+  }
+}

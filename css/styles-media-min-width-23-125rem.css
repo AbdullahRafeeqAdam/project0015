@@ -1,0 +1,704 @@
+
+@media (min-width: 23.125rem) {
+  .promoBlock .textWrap {
+    padding: 1.875rem 2.5rem 5rem;
+  }
+  .promoBlock h2,
+  .promoBlock h3 {
+    font-size: 1.75rem;
+    line-height: 1.29;
+  }
+  .col-12 > .promoBlock .promoBlockWrap .textWrap h2:not(.introText),
+  .col-12 > .promoBlock .promoBlockWrap .textWrap h3:not(.introText),
+  .col-12 > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h2:not(.introText),
+  .col-12 > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h3:not(.introText),
+  .col-12 > .canvas > .promoBlock .promoBlockWrap .textWrap h2:not(.introText),
+  .col-12 > .canvas > .promoBlock .promoBlockWrap .textWrap h3:not(.introText),
+  .col-12 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h2:not(.introText),
+  .col-12 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h3:not(.introText), .col-9 > .promoBlock .promoBlockWrap .textWrap h2:not(.introText),
+  .col-9 > .promoBlock .promoBlockWrap .textWrap h3:not(.introText),
+  .col-9 > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h2:not(.introText),
+  .col-9 > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h3:not(.introText),
+  .col-9 > .canvas > .promoBlock .promoBlockWrap .textWrap h2:not(.introText),
+  .col-9 > .canvas > .promoBlock .promoBlockWrap .textWrap h3:not(.introText),
+  .col-9 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h2:not(.introText),
+  .col-9 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h3:not(.introText), .col-8 > .promoBlock .promoBlockWrap .textWrap h2:not(.introText),
+  .col-8 > .promoBlock .promoBlockWrap .textWrap h3:not(.introText),
+  .col-8 > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h2:not(.introText),
+  .col-8 > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h3:not(.introText),
+  .col-8 > .canvas > .promoBlock .promoBlockWrap .textWrap h2:not(.introText),
+  .col-8 > .canvas > .promoBlock .promoBlockWrap .textWrap h3:not(.introText),
+  .col-8 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h2:not(.introText),
+  .col-8 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .textWrap h3:not(.introText) {
+    font-size: 1.5rem;
+    line-height: 1.33;
+  }
+  .partial .textWrap {
+    padding: 3.75rem 1.875rem 2.5rem;
+  }
+}
+@media (min-width: 38.75rem) {
+  :root {
+    --gutter-left: 1.875rem;
+    --gutter-right: 1.875rem;
+    --gap-col: 1.875rem;
+  }
+  .grid > .col-2 {
+    grid-column: span 6;
+  }
+  .grid > .col-3 {
+    grid-column: span 6;
+  }
+  .grid > .col-4 {
+    grid-column: span 6;
+  }
+  .grid > .col-5 {
+    grid-column: span 6;
+  }
+  .grid > .col-6 {
+    grid-column: span 6;
+  }
+  .pageFooterWrap {
+    padding: 2.5rem 1.875rem 0;
+  }
+  .pageFooterList {
+    columns: 2;
+    column-gap: 1.875rem;
+    max-width: 35.625rem;
+  }
+  .social {
+    margin: 1.25rem -0.625rem;
+  }
+  .hero .apiVideoBlock, .homepage.hero .image {
+    width: calc(100% - 3.75rem);
+  }
+  .hero::before {
+    width: 39.3548387097%;
+    padding: 0 0 3.125rem;
+  }
+  .landing.hero {
+    margin: 0 0 2.5rem calc((100% - 100vw) / 2);
+  }
+  .landing.hero .titleBlock {
+    padding: 3.75rem 2.5rem 2.5rem;
+    margin: -1.875rem 1.875rem 0;
+    width: calc(100% - 3.75rem);
+  }
+  .landing.sub.hero {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  .landing.sub.hero .image {
+    width: 40%;
+    height: auto;
+    margin: 1.875rem 0 0;
+    min-height: 12.5rem;
+  }
+  .landing.sub.hero .titleBlock {
+    background-color: transparent;
+    margin: 0;
+    padding: 5rem 5.625rem 5rem 1.25rem;
+    width: 60%;
+  }
+  .landing.sub.hero::before {
+    display: block;
+    left: 1.875rem;
+    width: calc(100% - 3.75rem);
+    height: calc(100% - 3.75rem);
+    -webkit-clip-path: unset;
+            clip-path: unset;
+  }
+  .landing.sub.hero::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    content: "";
+    z-index: -1;
+    bottom: 1.25rem;
+    height: 5rem;
+    background-repeat: repeat-x;
+    background-position: left top;
+    display: block;
+    background-size: auto 100%;
+  }
+  .homepage.hero .titleBlock {
+    left: 3.375rem;
+    margin: -6.25rem auto 0 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    width: 46%;
+    padding: 0.9375rem 2.5rem 1.5625rem 1.25rem;
+    min-height: 10.25rem;
+  }
+  .pattern.landing.sub.hero::after {
+    background-image: url("../images/fullPattern-1-rothschildco.svg");
+  }
+  .pattern2.landing.sub.hero::after {
+    background-image: url("../images/fullPattern-2-rothschildco.svg");
+  }
+  .pattern3.landing.sub.hero::after {
+    background-image: url("../images/fullPattern-3-rothschildco.svg");
+  }
+  .hero .image {
+    width: calc(100% - 1.875rem);
+    height: 18.125rem;
+  }
+  .hero .titleBlock {
+    padding: 2.5rem 1.25rem 2.5rem 1.875rem;
+  }
+  .hero .apiVideoBlock {
+    left: 1.875rem;
+  }
+  .hero .apiVideoBlockLink {
+    top: initial;
+    bottom: 0.9375rem;
+  }
+  .filterFormListing .grid:not(.filterFormListingHeaders) .filterFormListingItem {
+    width: calc(50% - var(--gap-col));
+  }
+  .siteSearchForm .filterFormListing ul.grid > li.filterFormListingItem {
+    width: 100%;
+  }
+  .col-8 > .promoBlock .promoBlockWrap {
+    flex-flow: row nowrap;
+  }
+  .col-8 > .promoBlock .promoBlockWrap > .image {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-8 > .promoBlock .promoBlockWrap > .image + .text {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-9 > .promoBlock .promoBlockWrap {
+    flex-flow: row nowrap;
+  }
+  .col-9 > .promoBlock .promoBlockWrap > .image {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-9 > .promoBlock .promoBlockWrap > .image + .text {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-10 > .promoBlock .promoBlockWrap {
+    flex-flow: row nowrap;
+  }
+  .col-10 > .promoBlock .promoBlockWrap > .image {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-10 > .promoBlock .promoBlockWrap > .image + .text {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-11 > .promoBlock .promoBlockWrap {
+    flex-flow: row nowrap;
+  }
+  .col-11 > .promoBlock .promoBlockWrap > .image {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-11 > .promoBlock .promoBlockWrap > .image + .text {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-12 > .promoBlock .promoBlockWrap {
+    flex-flow: row nowrap;
+  }
+  .col-12 > .promoBlock .promoBlockWrap > .image {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-12 > .promoBlock .promoBlockWrap > .image + .text {
+    width: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .col-12 > .promoBlock .promoBlockWrap .image,
+  .col-12 > .promoBlock:not(.promoOverlay) .promoBlockWrap .image,
+  .col-12 > .canvas > .promoBlock .promoBlockWrap .image,
+  .col-12 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .image, .col-9 > .promoBlock .promoBlockWrap .image,
+  .col-9 > .promoBlock:not(.promoOverlay) .promoBlockWrap .image,
+  .col-9 > .canvas > .promoBlock .promoBlockWrap .image,
+  .col-9 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .image, .col-8 > .promoBlock .promoBlockWrap .image,
+  .col-8 > .promoBlock:not(.promoOverlay) .promoBlockWrap .image,
+  .col-8 > .canvas > .promoBlock .promoBlockWrap .image,
+  .col-8 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .image {
+    height: auto;
+    flex: 1 1 50%;
+  }
+  .col-12 > .promoBlock .promoBlockWrap .image + .text,
+  .col-12 > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text,
+  .col-12 > .canvas > .promoBlock .promoBlockWrap .image + .text,
+  .col-12 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text, .col-9 > .promoBlock .promoBlockWrap .image + .text,
+  .col-9 > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text,
+  .col-9 > .canvas > .promoBlock .promoBlockWrap .image + .text,
+  .col-9 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text, .col-8 > .promoBlock .promoBlockWrap .image + .text,
+  .col-8 > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text,
+  .col-8 > .canvas > .promoBlock .promoBlockWrap .image + .text,
+  .col-8 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text {
+    flex: 1 1 50%;
+  }
+  .col-12 > .promoBlock .promoBlockWrap .image + .text .textWrap,
+  .col-12 > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text .textWrap,
+  .col-12 > .canvas > .promoBlock .promoBlockWrap .image + .text .textWrap,
+  .col-12 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text .textWrap, .col-9 > .promoBlock .promoBlockWrap .image + .text .textWrap,
+  .col-9 > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text .textWrap,
+  .col-9 > .canvas > .promoBlock .promoBlockWrap .image + .text .textWrap,
+  .col-9 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text .textWrap, .col-8 > .promoBlock .promoBlockWrap .image + .text .textWrap,
+  .col-8 > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text .textWrap,
+  .col-8 > .canvas > .promoBlock .promoBlockWrap .image + .text .textWrap,
+  .col-8 > .canvas > .promoBlock:not(.promoOverlay) .promoBlockWrap .image + .text .textWrap {
+    padding: 4.375rem 2.5rem;
+  }
+  .col-12 > .canvas > .promoBlock .promoBlockWrap, .col-9 > .canvas > .promoBlock .promoBlockWrap, .col-8 > .canvas > .promoBlock .promoBlockWrap {
+    flex-flow: row nowrap;
+  }
+  .col-12 > .promoBlock .promoBlockWrap .image,
+  .col-12 > .promoBlock:not(.promoOverlay):not(.partial) .promoBlockWrap .image,
+  .col-12 > .canvas > .promoBlock .promoBlockWrap .image,
+  .col-12 > .canvas > .promoBlock:not(.promoOverlay):not(.partial) .promoBlockWrap .image {
+    flex: 0 1 50%;
+  }
+  .col-12 > .promoBlock .promoBlockWrap .image + .text,
+  .col-12 > .promoBlock:not(.promoOverlay):not(.partial) .promoBlockWrap .image + .text,
+  .col-12 > .canvas > .promoBlock .promoBlockWrap .image + .text,
+  .col-12 > .canvas > .promoBlock:not(.promoOverlay):not(.partial) .promoBlockWrap .image + .text {
+    flex: 0 1 50%;
+    margin: 0 auto 0 0;
+  }
+  .col-12 > .promoBlock .promoBlockWrap .image + .text .textWrap,
+  .col-12 > .promoBlock:not(.promoOverlay):not(.partial) .promoBlockWrap .image + .text .textWrap,
+  .col-12 > .canvas > .promoBlock .promoBlockWrap .image + .text .textWrap,
+  .col-12 > .canvas > .promoBlock:not(.promoOverlay):not(.partial) .promoBlockWrap .image + .text .textWrap {
+    padding: 2.5rem;
+  }
+  .col-12 > .promoBlock .promoBlockWrap > .text .textWrap,
+  .col-12 > .promoBlock:not(.promoOverlay):not(.partial) .promoBlockWrap > .text .textWrap,
+  .col-12 > .canvas > .promoBlock .promoBlockWrap > .text .textWrap,
+  .col-12 > .canvas > .promoBlock:not(.promoOverlay):not(.partial) .promoBlockWrap > .text .textWrap {
+    max-width: none;
+  }
+  .col-6 > .promoBlock h2:not(.introText),
+  .col-6 > .promoBlock h3:not(.introText),
+  .col-6 > .canvas > .promoBlock h2:not(.introText),
+  .col-6 > .canvas > .promoBlock h3:not(.introText), .col-4 > .promoBlock h2:not(.introText),
+  .col-4 > .promoBlock h3:not(.introText),
+  .col-4 > .canvas > .promoBlock h2:not(.introText),
+  .col-4 > .canvas > .promoBlock h3:not(.introText), .col-3 > .promoBlock h2:not(.introText),
+  .col-3 > .promoBlock h3:not(.introText),
+  .col-3 > .canvas > .promoBlock h2:not(.introText),
+  .col-3 > .canvas > .promoBlock h3:not(.introText) {
+    font-size: 1.5rem;
+    line-height: 1.33;
+  }
+  .col-6 > .promoBlock .textWrap,
+  .col-6 > .canvas > .promoBlock .textWrap, .col-4 > .promoBlock .textWrap,
+  .col-4 > .canvas > .promoBlock .textWrap, .col-3 > .promoBlock .textWrap,
+  .col-3 > .canvas > .promoBlock .textWrap {
+    padding: 1.875rem 1.875rem 3.75rem;
+  }
+  .fullWidthImage {
+    padding: 1.875rem 0 5.625rem;
+  }
+  .fullWidthImageWrap {
+    position: absolute;
+    height: calc(100% - 6.25rem);
+  }
+  .fullWidthImageWrap img {
+    height: 100%;
+  }
+  .fullWidthImageText {
+    width: 20rem;
+    padding: 2.5rem;
+    margin: -1.875rem 0 0 auto;
+  }
+  .fullWidthImageTextWrap {
+    padding: 0 3.125rem 10rem 0;
+  }
+  .col-12 > .partial .image + .text .textWrap {
+    padding: 4.375rem 2.5rem 3.125rem;
+  }
+  .col-6 > .partial .textWrap, .col-4 > .partial .textWrap, .col-3 > .partial .textWrap {
+    padding: 3.75rem 1.875rem 2.5rem;
+  }
+  .keyFigure.dark {
+    padding: 4.375rem 0;
+  }
+  .col-6 > .keyFigure.dark, .col-4 > .keyFigure.dark, .col-3 > .keyFigure.dark {
+    width: auto;
+    margin: 0 calc(var(--gap-col) / -2);
+    max-width: none;
+  }
+  .electiveContent.col-12 .promoBlock .image + .text::before, .electiveContent.col-9 .promoBlock .image + .text::before, .electiveContent.col-8 .promoBlock .image + .text::before {
+    position: absolute;
+    left: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--promoBlock-background-textWrap);
+    content: "";
+    display: block;
+    z-index: -1;
+  }
+  .lateralMovementItem.col-12 .promoBlock .image + .text::before, .lateralMovementItem.col-9 .promoBlock .image + .text::before, .lateralMovementItem.col-8 .promoBlock .image + .text::before {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--promoBlock-background-textWrap);
+    content: "";
+    display: block;
+    z-index: -1;
+  }
+  .lateralMovementItem.col-12 .promoBlock.promoLinks .image + .text::before, .lateralMovementItem.col-9 .promoBlock.promoLinks .image + .text::before, .lateralMovementItem.col-8 .promoBlock.promoLinks .image + .text::before {
+    left: 0 !important;
+  }
+  .pageHeaderWrap {
+    padding: 0.9375rem 1.25rem;
+  }
+}
+@media (min-width: 48rem) {
+  .grid > .col-2 {
+    grid-column: span 4;
+  }
+  .grid > .col-3 {
+    grid-column: span 3;
+  }
+  .grid > .col-4 {
+    grid-column: span 4;
+  }
+  .grid > .col-5 {
+    grid-column: span 5;
+  }
+  .grid > .col-7 {
+    grid-column: span 7;
+  }
+  .grid > .col-8 {
+    grid-column: span 8;
+  }
+  .grid > .col-9 {
+    grid-column: span 9;
+  }
+  .grid > .col-10 {
+    grid-column: span 10;
+  }
+  .grid > .col-11 {
+    grid-column: span 11;
+  }
+  .grid > .col-3 {
+    grid-column: span 6;
+  }
+  .background.textBlock {
+    padding: 3.125rem 3.75rem;
+  }
+  .fullWidthVideoBlock .apiVideoBlockLink {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+  .fullWidthVideoBlock .apiVideoBlockLink svg {
+    height: 1.4375rem;
+    width: 1.4375rem;
+  }
+  .dropDown {
+    flex: 1 1 calc(33% - 3.75rem);
+    max-width: 19.6875rem;
+    margin: 0 0.9375rem 1.875rem;
+  }
+  .filterForm {
+    text-align: left;
+    padding: 4.375rem 0;
+  }
+  .filterFormOptions {
+    flex-flow: row wrap;
+    width: calc(100% + 1.875rem);
+    margin: 0 -0.9375rem;
+  }
+  .filterFormOptionsReset {
+    justify-self: flex-end;
+    width: auto;
+    flex: 0 0 auto;
+    padding: 1.5625rem 0.9375rem;
+    order: 2;
+  }
+  .filterFormOptionsOutput {
+    justify-self: flex-start;
+    width: auto;
+    flex: 1 0 auto;
+    padding: 0;
+    padding: 1.5625rem 0.9375rem;
+    order: 1;
+  }
+  .filterFormOptionsOutput p {
+    font-size: 1.25rem;
+  }
+  .prevNextWrapper {
+    padding: 0 0.625rem 0 0;
+  }
+  .prevNextWrapper.next {
+    padding: 0 0 0 0.625rem;
+  }
+  .prevNextWrapper.next .labelHolder {
+    flex-flow: row-reverse nowrap;
+  }
+  .prevNextWrapper .labelHolder {
+    display: inline-flex;
+    width: auto;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+  }
+  .prevNextWrapper .selectedLabel {
+    margin: 0;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    clip: unset;
+    position: relative;
+    font-size: 1rem;
+    color: #2E3E80;
+    line-height: 1.13;
+  }
+  .prevNextWrapper .icon {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .prevNextWrapper .icon svg {
+    position: relative;
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+  .pagination {
+    grid-template-columns: auto auto auto;
+    margin: 0 0 auto;
+  }
+  .paginationNavList {
+    gap: 0 0.625rem;
+  }
+  .paginationWrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    margin: 4.375rem 0 0;
+  }
+  .siteSearchForm {
+    padding: 0;
+  }
+  .filterTermsList {
+    margin: 0 0.625rem 0;
+  }
+  .filterTermsListItem {
+    margin: 0.625rem 1.25rem 1.25rem 0;
+  }
+  .profileDetails {
+    display: grid;
+    grid-template-columns: 17.5rem 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 1.25rem var(--gap-col);
+  }
+  .profileDetailsImage {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 17.5rem;
+  }
+  .profileDetailsList {
+    width: auto;
+    grid-column: 2/3;
+    grid-row-start: 2;
+  }
+  .categories + img {
+    margin: 2.1875rem 0 1.875rem;
+  }
+  .authorsItem {
+    width: calc(50% - 2.5rem);
+  }
+  .col-9 > .promoBlock,
+  .col-9 > .canvas > .promoBlock, .col-8 > .promoBlock,
+  .col-8 > .canvas > .promoBlock {
+    margin: 0;
+  }
+  .col-9 > .promoBlock .textWrap,
+  .col-9 > .canvas > .promoBlock .textWrap, .col-8 > .promoBlock .textWrap,
+  .col-8 > .canvas > .promoBlock .textWrap {
+    padding: 1.875rem 0;
+  }
+  .col-6 .iframeBlock iframe {
+    height: calc((50vw - 2.5rem) * 0.56);
+  }
+  .fullWidthImage.noText {
+    position: relative;
+    max-height: 66vh;
+  }
+  .relatedContentTitle {
+    margin-bottom: 4.375rem;
+  }
+  .secondaryNavLinks {
+    justify-content: flex-end;
+    padding: 0 0 1rem;
+    gap: 2.5rem;
+  }
+  .noGapSupport .secondaryNavLinksItem {
+    margin: 0 0 0 2.5rem;
+  }
+  .secondaryNav .swipeNavList {
+    gap: 0 1.875rem;
+  }
+  .electiveContent .accordionContentWrap .section {
+    min-height: 31.25rem;
+  }
+  .lateralMovementItem.col-6, .lateralMovementItem.col-3 {
+    --item-width-calc: calc((var(--item-width) * 0.5) - (var(--item-gap) / 2));
+  }
+  .lateralMovementItem.col-9 {
+    --item-width-calc: calc((var(--item-width) * (9 / 12)) - (var(--item-gap) / 2));
+  }
+  .lateralMovementItem.col-8 {
+    --item-width-calc: calc((var(--item-width) * (8 / 12)) - (var(--item-gap) / 2));
+  }
+  .lateralMovementItem.col-4 {
+    --item-width-calc: calc((var(--item-width) * (1 / 3)) - ((var(--item-gap) / 2) * 1.35));
+  }
+  .articleHubTitle {
+    margin: 2.5rem 0 1.875rem 0;
+  }
+  .articleHubContent:nth-of-type(1) .promoBlock .text .textWrap {
+    margin: 2.5rem 2.5625rem;
+    gap: unset;
+  }
+  .articleHubContent:nth-of-type(2) {
+    grid-row: 2;
+  }
+  .articleHubContent:nth-of-type(2) .text {
+    order: 1;
+  }
+  .articleHubContent:nth-of-type(2) .image {
+    order: 2;
+  }
+  .articleHubContent:nth-of-type(3) {
+    grid-row: 3;
+  }
+  .articleHubContent:nth-of-type(3) .promoBlock .textWrap {
+    background-color: #EFECEA;
+  }
+@supports not selector(*:focus-visible) {
+}
+  .articleHubContent:nth-of-type(3) .promoBlock .textWrap > h3 a:hover {
+    color: #8A1E41;
+    background-size: 0 0.0625rem, 100% 0.0625rem;
+  }
+  .articleHubContent:nth-of-type(3) .promoBlock .textWrap > h3 a:focus-visible {
+    color: #8A1E41;
+    background-size: 0 0.0625rem, 100% 0.0625rem;
+  }
+  .articleHubContent:nth-of-type(3) .promoBlock .textWrap > h3 a {
+    color: #1C355E;
+    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #8A1E41, #8A1E41);
+    background-size: 100% 0.0625rem, 0 0.0625rem;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+  }
+  .articleHubContent:nth-of-type(3) .promoBlock .textWrap .promoBlockCta svg use {
+    fill: #767474;
+  }
+  .articleHubContent:nth-of-type(3) .partialCategory, .articleHubContent:nth-of-type(3) time {
+    color: #4C4949;
+  }
+  .articleHubContent:nth-of-type(4) {
+    grid-row: 4;
+  }
+  .articleHubContent:nth-of-type(4) .partialCategory, .articleHubContent:nth-of-type(4) time {
+    color: #D6D1CA;
+  }
+  .articleHubContent:nth-of-type(4) .promoBlockWrap {
+    gap: unset;
+  }
+  .articleHubContent:nth-of-type(4) .promoBlock .text .textWrap {
+    background-color: rgba(28, 53, 94, 0.9294117647);
+  }
+@supports not selector(*:focus-visible) {
+}
+  .articleHubContent:nth-of-type(4) .promoBlock .text .textWrap > h3 a:hover {
+    color: #CC9F53;
+    background-size: 0 0.0625rem, 100% 0.0625rem;
+  }
+  .articleHubContent:nth-of-type(4) .promoBlock .text .textWrap > h3 a:focus-visible {
+    color: #CC9F53;
+    background-size: 0 0.0625rem, 100% 0.0625rem;
+  }
+  .articleHubContent:nth-of-type(4) .promoBlock .text .textWrap > h3 a {
+    color: #ffffff;
+    background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, #CC9F53, #CC9F53);
+    background-size: 100% 0.0625rem, 0 0.0625rem;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+  }
+  .articleHubContent:nth-of-type(4) .promoBlock .text .textWrap .promoBlockCta svg use {
+    fill: #ffffff;
+  }
+  .articleHubContent:nth-of-type(5) {
+    grid-row: 5;
+  }
+  .articleHubContent:nth-of-type(5) .promoBlockWrap {
+    gap: unset;
+    display: flex;
+  }
+  .articleHubContent:nth-of-type(5) .promoBlock .text {
+    width: 50%;
+  }
+  .articleHubContent:nth-of-type(5) .promoBlock .text .textWrap {
+    background-color: rgba(28, 53, 94, 0.9294117647);
+  }
+  .articleHubContent:nth-of-type(6) .promoBlock .text .textWrap {
+    padding: 1.25rem 1.875rem;
+  }
+  .articleHubContent:nth-of-type(2) .promoBlock .image, .articleHubContent:nth-of-type(3) .promoBlock .image {
+    padding: unset;
+  }
+  .articleHubContent:nth-of-type(2) .promoBlockWrap, .articleHubContent:nth-of-type(3) .promoBlockWrap {
+    gap: unset;
+    background-color: unset;
+  }
+  .articleHubContent:nth-of-type(2) .promoBlockWrap .image img, .articleHubContent:nth-of-type(3) .promoBlockWrap .image img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .articleHubContent:nth-of-type(4) .promoBlock .image, .articleHubContent:nth-of-type(5) .promoBlock .image {
+    position: unset;
+    height: 0;
+    padding: unset;
+  }
+  .articleHubContent:nth-of-type(4) .promoBlock .image a, .articleHubContent:nth-of-type(5) .promoBlock .image a {
+    position: absolute;
+  }
+  .articleHubContent:nth-of-type(4) .promoBlock .image img, .articleHubContent:nth-of-type(5) .promoBlock .image img {
+    position: absolute;
+    height: 100%;
+  }
+  .articleHubContent .promoBlock h3 {
+    font-size: 1.5rem;
+  }
+  .articleHubContent .promoBlock .text .textWrap {
+    padding: 1.25rem 1.25rem 1.25rem 1.875rem;
+  }
+}
